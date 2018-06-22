@@ -9,14 +9,17 @@ body{
 	font-family: russia2018;
 }
 
+ul, li { margin-left: 0; padding-left: 0; list-style-type: none }
+
 .contenedor{
 	width: 80%;
 	margin: auto;
-	padding: 20px;
+	color: white;
 }
 
 .portada{
 	height: 600px;
+	padding: 20px;
 }
 
 .background{
@@ -33,10 +36,6 @@ body{
 	color: white;
 	text-decoration: none;
 
-}
-
-ul{
-	list-style-type: none;
 }
 
 .menu{
@@ -78,4 +77,33 @@ ul{
 	font-size: 24px;
 	line-height: 20px;
 	color: white;
+}
+
+.estadio{
+	background: #B4100E; /*Rojo Claro*/
+	margin: 15px -20px;
+	padding: 30px 20px;
+    border-radius: 5px 20%;
+	display: flex;
+}
+
+.estadio h2{
+	color: white;
+	position: absolute;
+	margin-top: -30px;
+}
+
+.img_estadio img{
+	width: 300px;
+	height: 180px;
+}
+
+.descripcion p{
+	width: 90%;
+}
+
+.ver_mas{
+	position: relative;
+	bottom: 5px;
+	right: 5px;
 }
