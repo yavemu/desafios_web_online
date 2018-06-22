@@ -1,0 +1,81 @@
+@font-face {
+    font-family: russia2018;
+    src: url(../fonts/FIFA_World_Cup_2018.ttf);
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: russia2018;
+}
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+}
+
+.portada{
+	height: 600px;
+}
+
+.background{
+	background-image: url('../images/logo1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.menu{
+	position: relative;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+.menu{
+	display: flex; /*http://flexboxfroggy.com/#es*/
+	justify-content: space-between;
+}
+
+.menu li{
+	margin: 10px 0;
+	padding: 15px;
+	width: 350px;
+	font-size: 25px;
+	text-align: center;
+	background: #326295; /*Azul*/
+	opacity: 0.6;
+}
+
+.menu li:hover{
+	opacity: 1;
+}
+
+.menu .izquierdo li{
+	border-radius: 50% 5px;
+}
+
+.menu .derecho li{
+	border-radius: 5px 50%;
+}
+
+.menu li:after{
+	content: ' ⟫ ';
+	font-size: 24px;
+	line-height: 20px;
+	color: white;
+}
+
+.menu li:before{
+	content: ' ⟪ ';
+	font-size: 24px;
+	line-height: 20px;
+	color: white;
+}
